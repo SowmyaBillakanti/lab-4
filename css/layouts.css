@@ -1,0 +1,47 @@
+header {
+  border: double 15px;
+  background: rgb(64, 181, 163);
+  border-color:rgb(0, 0, 0);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 55px;
+}
+
+img {
+  border-radius: 15%;
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+}
+
+section {
+  margin-top: 40px;
+  float: left;
+  height: 375px;
+  width: 25%;
+}
+
+p {
+  height: 80px;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  color: rgb(24, 96, 104)
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  font-family: 'bangers';
+  font-size: 25px;
+  color: rgb(24, 96, 104);
+  height: 50px;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+} 
