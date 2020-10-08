@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Gallery of Horns</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Kaushan+Script&family=Noto+Sans+HK:wght@700;900&family=Righteous&display=swap"
+        rel="stylesheet">
+    <script id="photo-template" type="text/x-tmpl-mustache">
+        <section class="{{keyword}} default">
+          <h2>{{ title }}</h2>
+          <img src="{{image_url}}">
+          <p>{{description}}</p>
+        </section>
+      </script>
+</head>
+
+<body>
+    <header>
+        <h1>The Gallery of Horns</h1>
+        <select id="select-keyword">
+            <option value="default">Filter by Keyword</option>
+        </select>
+    </header>
+    <main>
+    </main>
+    <button onclick="window.location.href='index.html';">View Previous</button>
+    <footer>
+        &copy; 2018 Code Fellows
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.0.1/mustache.min.js"></script>
+    <script src="js/app2.js"></script>
+</body>
+
+</html>
